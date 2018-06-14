@@ -1,0 +1,234 @@
+/* =(Global)
+-----------------------------------------------------------------------------*/
+/* Don't forget to set a foreground and background color on the 'html' or 'body' element! */
+
+/* Remove padding ,margins , borders and stanadrdise other elements for all browsers */
+body{color:#222200;background:#000;margin-top: 25px;}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;
+}table{border-collapse:collapse;border-spacing:0;} fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;} caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup,sub{line-height:-1px;vertical-align:text-top;}sub{vertical-align:text-bottom;}input, textarea, select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+
+/* =Changes to above (Global)
+-----------------------------------------------------------------------------*/
+/* Put it back on certain elements */
+
+/* Standardise H Tags */
+h1{font-size:138.5%;} h2{font-size:123.1%;} h3{font-size:115%;}
+h1,h2,h3,h4,h5,h6 {margin:1em 0;}
+h1,h2,h3,h4,h5,h6,strong {font-weight:bold;}
+
+/* Standardise Other Tags */
+abbr,acronym{border-bottom:1px dotted #000;cursor:help;}em{font-style:italic;}blockquote,ul,ol,dl{margin:1em;}
+ol,ul,dl{margin-left:2em;}ol li{list-style: decimal outside;}ul li{list-style: disc outside;}dl dd{margin-left:1em;}
+th,td {border:1px solid #000;padding:.5em;}th {font-weight:bold;text-align:center;}
+caption {margin-bottom:.5em;text-align:center;}
+p,fieldset,table {margin-bottom:1em;}
+
+/* Class for clearing floats */
+.clear { clear:both; }
+
+/* =Typography
+-----------------------------------------------------------------------------*/
+
+/* =Set Fonts (Global) */
+body {font:13px/1.22 tahoma, helvetica, arial, verdana, sans-serif;*font-size:small;*font:x-small;}table {font-size:inherit;font:100%;}
+body {font-size: 84%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:99%;}
+
+/* Changes to Global Fonts  */
+#primary h3 {font-weight: bold;color: #251A0F;margin-bottom: 10px;font-size: 95%;margin-top: 0px;}
+#primary h4 {color: #2B2B00;margin-bottom: 10px;font-weight: normal;}
+#primary a , #primary visited {color: #FFFFFF;text-decoration: none;font-weight: bold;font-size: 85%;}
+#primary a:hover {color: #FF9900;text-decoration: none;}
+
+
+#secondary  .pageTitle {display: none;}
+#secondary h3 , #secondary h4 {margin: 0px 0px 10px;padding: 0px;}
+#secondary h5 {margin-bottom: 10px;font-weight: bold;margin-top: 0px;}
+#secondary a {text-decoration:none;color:#FFF;font-size:85%;padding:0.3em 1em 0.3em 0em;font-weight: bold;}
+#secondary  a:hover {color:#FF9900;}
+#secondary  .selected {color: #FF9900;}
+#secondary .underline {text-decoration: underline;}
+
+
+
+/* =Layout (Global)
+-----------------------------------------------------------------------------*/
+#wrapper {background: url(../images/layout-template-950X600.gif);margin-right: auto;width: 796px;margin-left: auto;margin-top: 15px;} 
+#contentContainer {background: #999684 url(../images/border-right.gif) repeat-y right top;}
+
+
+#tHome #primary {width: 461px;float: right;height: 278px;padding: 0px;}
+#tHome #secondary{
+	width: 238px;
+	/*height: 278px;*/
+	color: #CCCCCC;
+	margin-bottom: 0px;
+	height: 243px;
+	padding-top: 35px;
+	padding-right: 70px;
+	padding-bottom: 0px;
+	padding-left: 27px;
+}
+
+#tMain #primary {width: 306px;float: right;height: auto;padding: 61px 95px 15px 60px;}
+#tMain #secondary{width: 238px;padding: 35px 70px 20px 27px;color: #CCCCCC;margin-bottom: 0px;height: 100%;}
+
+#tStills #primary {width: 461px;float: right;margin: 0px;padding: 0px;}
+#tStills #secondary{width: 243px;padding: 20px 65px 20px 27px;color: #CCCCCC;text-align: right;margin-bottom: 0px;height: 306px;}
+
+#tGalleries #primary   {width: 461px;float: right;margin: 0px;padding: 0px;}
+#tGalleries #secondary {width: 335px;padding: 0;color: #CCCCCC;margin-bottom: 0px;}
+
+div.bg-main#secondary  {background: #333333 url(../images/bg-main-secondry-content.gif) repeat-y;}
+div.bg-two#secondary   {background: #333333 url(../images/bg-two-secondry-content.gif) repeat-y;}
+div.bg-three#secondary {background: #333333 url(../images/bg-three-secondry-content.gif) repeat-y;}
+
+
+
+
+.alignright {float: right;} .alignleft {float: left}
+.imageLeft, .imgLeft {margin: 0.5em 1em 1em 0;float:left;} .imageRight, .imgRight {margin: 0.5em 0 1em 1em;float:right;}
+.imageLink { padding:0 !important;margin:0 !important;background:#ffffff !important;border:none !important;color:#ffffff !important;}
+
+/* =Header =Banner
+-----------------------------------------------------------------------------*/
+
+#header * {top:0;left:0;}
+#header {clear: both; background: #999684;}
+#header img {margin: 0px;padding: 0px;border-style: none;}
+#logo a {display:block;width:300px;height:50px;text-decoration:none;text-indent:-5000em;overflow:hidden;}
+.LogoPrint {display: none;}
+#branding {text-indent: -9999px;background: url(../images/logo.gif);height: 172px;width: 461px;padding: 0px;margin-top: 0px;margin-bottom: 0px;margin-left: 335px;}
+#header .headshot {margin: 0px;padding: 0px;float: left;}
+#strapLine {display: none;}
+#banner {}
+
+
+/* =Main Nav
+-----------------------------------------------------------------------------*/
+/* =Main Nav and Page Titles
+-----------------------------------------------------------------------------*/
+
+#navigationContainer {width:796px;text-indent:-9999px;background: #333;margin: 0px;padding: 0px;height: 131px;}
+#navigationContainer ul {
+	padding: 0px;
+	width: 240px;
+	float: right;
+	margin: 16px 90px 0px 0px;
+}
+#navigationContainer li {list-style: none;}
+#navigationContainer li a {display:block;height:19px;background-repeat:no-repeat;background-position:left top;margin:0;padding:0;}
+
+/* =Buttons in Main Navigation Container
+-----------------------------------------------------------------------------*/
+#navigationContainer #nFilm a {background-image:url(../images/slices/btn-nFilmography.gif);background-repeat:no-repeat;background-position:left top;outline: 0px;}
+#navigationContainer #nBio a {background-image:url(../images/slices/btn-nBio.gif);background-repeat:no-repeat;background-position:left top;outline: 0px;}
+#navigationContainer #nGalleries a {background-image:url(../images/slices/btn-nGalleries.gif);background-repeat:no-repeat;background-position:left top;outline: 0px;}
+#navigationContainer #nBlog a {background-image:url(../images/slices/btn-nBlog.gif);background-repeat:no-repeat;background-position:left top;outline: 0px;}
+#navigationContainer #nPress a {background-image:url(../images/slices/btn-nPress.gif);background-repeat:no-repeat;background-position:left top;outline: 0px;}
+#navigationContainer #nContact a {background-image:url(../images/slices/btn-nContact.gif);background-repeat:no-repeat;background-position:left top;outline: 0px;}
+
+#navigationContainer #nFilm a:hover,#navigationContainer #nAbout .selected,#navigationContainer #nBio a:hover,#navigationContainer #nBio .selected,#navigationContainer #nGalleries a:hover,#navigationContainer #nGalleries .selected,#navigationContainer #nBlog a:hover,#navigationContainer #nPortfolio .selected,#navigationContainer #nPress a:hover,#navigationContainer #nPress .selected,#navigationContainer #nContact a:hover,#navigationContainer #nContact .selected,#HomeNavigationContainer #hAbout a:hover,#navigationContainer #hContact .selected,#HomeNavigationContainer #hPortfolio a:hover,#navigationContainer #hPortfolio .selected,#HomeNavigationContainer #hContact a:hover,#navigationContainer #hContact .selected {background-position:left bottom;
+overflow: hidden;outline: 0px;}
+
+/* Page Titles */
+div.home#navigationContainer        {background: #333333 url(../images/titles-homepage.gif) no-repeat left;}
+div.stills#navigationContainer 		{background: #333333 url(../images/titles-movie-stills.gif) no-repeat left;}
+div.filmography#navigationContainer	{background: #333333 url(../images/titles-filmography.gif) no-repeat left;}
+div.biography#navigationContainer 	{background: #333333 url(../images/titles-biography.gif) no-repeat left;}
+div.contact#navigationContainer 	{background: #333333 url(../images/titles-contact.gif) no-repeat left;}
+div.press#navigationContainer 		{background: #333333 url(../images/titles-press.gif) no-repeat left;}
+div.galleries#navigationContainer	{background: #333333 url(../images/titles-galleries.gif) no-repeat left;}
+div.publicity#navigationContainer 	{background: #333333 url(../images/titles-publicity.gif) no-repeat left;}
+div.rw#navigationContainer 			{background: #333333 url(../images/titles-rw.gif) no-repeat left;}
+
+
+
+/* =Sub Nav
+-----------------------------------------------------------------------------*/
+
+#subnavContainer {margin: 0px 0px 15px;text-align: left;left: 0x;position: relative;padding: 0px;}
+.textLeft {text-align: left;}
+.textRight {text-align: right;}
+
+#subnavContainer li {/* float:left; */list-style: none;}
+#subnavContainer li a {text-decoration:none;color:#fff;font-size:85%;padding:0.3em 1em 0.3em 0em;}
+#subnavContainer li a:hover {color:#FF9900;}
+#subnavContainer .selected {color: #FF9900;}
+
+ul.filmography#subnavContainer {padding-top: 0px;width: 280px;}
+ul.moviestills#subnavContainer {margin-top: 15px;}
+
+ul.nav-back {margin-top: 170px;margin-left: 0px;}
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+
+#footer {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	background: #242424 url(../images/footer.gif) no-repeat left bottom;
+	height: 25px;
+	line-height: 24px;}
+#footer ul {
+	padding:0px;
+	text-align:left;
+	background: url(../images/footerUL.gif) no-repeat right bottom;
+	margin: 0px 0px 0px 22px;}
+#footer li {
+	display:inline;
+	font-size:0.8em;
+	padding-right: 10px;}
+
+#footer a {text-decoration: none;color: #666666;}
+#footer a:visited {color: #666666;text-decoration: none;}
+#footer a:hover , #footer .selected {color: #FF9900;}
+
+ul.legal {color: #999999;margin: 10px auto;padding: 0px;font-size: 85%;text-align: left;}
+.legal a {color: #999999;}
+.legal a:hover {color: #A2CA6A;}
+.legal li {list-style: none;}
+
+
+/* =Forms
+-----------------------------------------------------------------------------*/
+
+/* Removes fieldset borders. even on Opera 7 */
+fieldset {border: 1px solid transparent;}
+
+fieldset {color: #666 ;}
+legend {font-size: 115%;font-weight: bold;color: #999;margin-left: 0px;}
+#frmElement {height: 35px; margin: 0px;}  put classes below,in this div 
+.frmText {float: left;width: auto;padding: 4px 0 0 0px;}
+.frmField {}
+.frmField input {border: 1px solid #999999;padding: 2px;}
+.frmSubmit {}
+
+
+
+/* =Tables
+-----------------------------------------------------------------------------*/
+
+td {text-align: left;	font-weight: normal;}
+
+/* =Multimedia
+-----------------------------------------------------------------------------*/
+
+.flashPlayer {position:relative;overflow:hidden;}
+
+/* =Misc
+-----------------------------------------------------------------------------*/
+
+
+/* =To Be Filed
+-----------------------------------------------------------------------------*/
+
+
+.clearLFT {clear: left;}
+.justify {text-align: justify;}
+
+#tHome .project-intro a {
+	font-size: 100%;
+}
